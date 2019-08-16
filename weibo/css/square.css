@@ -1,0 +1,346 @@
+body{
+	width: 750px;
+	height: 100%;
+	margin: 0 auto;
+}
+.container{
+	width: 750px;
+	height: 100%;
+	margin: 0 auto;
+	background-color: #f2f2f2;
+}
+.container::after{
+	display: block;
+	content: "";
+	clear: both;
+}
+.container > .fix-nav{
+	width: 750px;
+	height: 55px;
+	background-color: #f5f5f5;
+	line-height: 55px;
+	color: #333;
+	font-size: 23px;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	z-index: 99;
+}
+.container > .kuang{
+	width: 750px;
+	height: 18px;
+	margin-top: 55px;
+	border: 1px solid #fff;
+	border-right: none;
+	border-left: none;
+	background-color: #fff;	
+}
+.container > .search1{
+	padding-top: 22.5px;
+	width: 750px;
+	height: 80px;
+	background-color: #e3e4e6;
+}
+.search1 > form{
+	width: 709px;
+	height: 35px;
+	margin-left: 50px;
+	position: relative;
+}
+.search1 > form >label{
+	position: relative;
+}
+.search1 > form > label > input[type=search]{
+	padding: 0 0 0 2.1875rem;
+	border: none;
+	width: 680px;
+	height: 40px;
+}
+.search1 > form > label >i.iconfont{
+	color: #e3e4e6;
+	height: 30px;
+	width: 30px;
+	position: absolute;
+	left: 5px;
+}
+.container > .car{
+	width: 750px;
+	height: 200px;
+}
+.container > .car > img{
+	width: 100%;
+	overflow: hidden;
+} 
+.container > .card{
+	width: 750px;
+	height: 100px;
+}
+.container > .card >ul::after{
+	display: block;
+	content: "";
+	clear: both;
+}
+.container > .card >ul >li{
+	float: left;
+	padding-top: 20px;
+	width: 150px;
+	height: 100px;
+	text-align: center;
+	background-color: #fff;
+}
+.container > .card >ul >li:nth-child(1) >div> .iconfont{
+	color: lightblue;
+	font-size: 45px;
+}
+.container > .card >ul >li:nth-child(2) >div> .iconfont{
+	color: #65cb01;
+	font-size: 45px;
+}
+.container > .card >ul >li:nth-child(3) >div> .iconfont{
+	color: #fdb221;
+	font-size: 45px;
+}
+.container > .card >ul >li:nth-child(4) >div> .iconfont{
+	color: #f97171;
+	font-size: 45px;
+}
+.container > .card >ul >li:nth-child(5) >div> .iconfont{
+	color: #f68634;
+	font-size: 45px;
+}
+h1{
+	font-size: 14px;
+	text-align: center;
+	color: #333;
+}
+.container > .card >ul >li >div{
+	text-align: center;
+	width: 149px;
+	height: 60px;
+	border-right: 1px solid #ededed;
+}
+.container > .card >ul >li:nth-child(5) >div{
+	border-right: none;
+}
+.container > .content{
+	margin-bottom: 20px;
+	height: 345px;
+	width: 750px;
+	background-color: #fff;
+}
+.container > .content > .content-top{
+	position: relative;
+	height: 60px;
+	width: 750px;
+	background-color: #fff;
+}
+.container > .content > .content-font{
+	height: 120px;
+	width: 750px;
+	position: relative;
+	background-color: #fff;
+}
+.container > .content > .content-choice{
+	position: relative;
+	height: 100px;
+	width: 750px;
+	background-color: #fff;
+	margin-bottom: 20px;
+}
+.container > .content > .content-bottom{
+	height: 44px;
+	width: 750px;
+	border-top:1px solid #ededed; 
+	background-color: #fff;
+}
+.container > .content > .content-top >div{
+	position: absolute;
+	top: 10px;
+	left:20px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+.content > .content-top >div >img{
+	width: 100%;
+	overflow: hidden;
+}
+.container > .content > .content-top >h3{
+	top: 15px;
+	font-size: 16px;
+	color: #f88d00;
+	position: absolute;
+	left: 80px;
+}
+.container > .content > .content-top >span{
+	font-size: 14px;
+	color: #939393;
+	position: absolute;
+	bottom: 2px;
+	left: 80px;
+}
+.container > .content > .content-top > img.vip{
+	top: 10px;
+	position: absolute;
+	left: 146px;
+}
+.container > .content > .content-font >img.chao{
+	position: absolute;
+	top: 20px;
+	left: 25px;
+}
+.container > .content > .content-font > span.one{
+	position: absolute;
+	top: 20px;
+	left: 50px;
+	color: #3c6e9e;
+	font-size: 20px;
+}
+.container > .content > .content-font >span.font{
+	position: absolute;
+	top: 20px;
+	left: 200px;
+	font-size: 16px;
+	color: #333;
+}
+.container > .content > .content-font >span.font2{
+	position: absolute;
+	top: 42px;
+	left: 25px;
+	font-size: 16px;
+	color: #333;
+}
+.container > .content > .content-font >img.ren{
+	position: absolute;
+	top: 42px;
+	left: 355px;
+}
+.container > .content > .content-font >img.xuan{
+	position: absolute;
+	top: 42px;
+	left: 380px;
+}
+.container > .content > .content-choice >img.xian{
+	position: absolute;
+	top: 10px;
+	left: 30px;
+}
+.container > .content > .content-choice > div.box{
+	width: 605px;
+	height: 88px;
+	background-color: #f8f8f8;
+	position: absolute;
+	top: 10px;
+	left: 118px;
+}
+.content > .content-choice > div.box >span{
+	font-size: 20px;
+	color: #333;
+	position: absolute;
+	top: 20px;
+	left: 10px;
+}
+.container > .content > .content-bottom::after{
+	display: block;
+	content: "";
+	clear: both;
+}
+.container > .content > .content-bottom >div{
+	float: left;
+	height: 44px;
+	width: 250px;
+	text-align: center;
+}
+.container > .content > .content-bottom >div >i{
+	color: #939393;
+	font-size: 30px;
+}
+.container > .content2{
+	margin-bottom: 20px;
+	height: 345px;
+	width: 750px;
+	background-color: #fff;
+}
+.container > .content2 > .content-top{
+	position: relative;
+	height: 60px;
+	width: 750px;
+	background-color: #fff;
+}
+.container > .content2 > .content-font{
+	height: 60px;
+	width: 750px;
+	position: relative;
+	background-color: #fff;
+}
+.container > .content2 > .content-choice{
+	position: relative;
+	height: 160px;
+	width: 750px;
+	background-color: #fff;
+	margin-bottom: 20px;
+}
+.container > .content2 > .content-bottom{
+	height: 44px;
+	width: 750px;
+	border-top:1px solid #ededed; 
+	background-color: #fff;
+}
+.container > .content2 > .content-top >div{
+	position: absolute;
+	top: 10px;
+	left:20px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+.content2 > .content-top >div >img{
+	width: 100%;
+	overflow: hidden;
+}
+.container > .content2 > .content-top >h3{
+	top: 15px;
+	font-size: 16px;
+	color: #f88d00;
+	position: absolute;
+	left: 80px;
+}
+.container > .content2 > .content-top >span{
+	font-size: 14px;
+	color: #939393;
+	position: absolute;
+	bottom: 2px;
+	left: 80px;
+}
+.container > .content2 > .content-top > img.vip{
+	top: 10px;
+	c
+	left: 146px;
+}
+.container > .content2 > .content-font >span.font{
+	position: absolute;
+	top: 20px;
+	left: 25px;
+	font-size: 20px;
+	color: #333;
+}
+.container > .content2 > .content-choice > img.xian{
+	position: absolute;
+	bottom: 10px;
+	left: 30px;
+}
+.container > .content2 > .content-bottom::after{
+	display: block;
+	content: "";
+	clear: both;
+}
+.container > .content2 > .content-bottom >div{
+	float: left;
+	height: 44px;
+	width: 250px;
+	text-align: center;
+}
+.container > .content2 > .content-bottom >div >i{
+	color: #939393;
+	font-size: 30px;
+}
